@@ -1,0 +1,21 @@
+name: sam-demo
+channels:
+  - nvidia
+  - pytorch
+  - conda-forge
+dependencies:
+  - fastapi=0.105.0=pyhd8ed1ab_0
+  - numpy=1.26.2=py311h64a7726_0
+  - onnx=1.15.0=py311h7ac8102_0
+  - onnxruntime=1.15.1=py311hf017ac3_3_cpu
+  - opencv=4.8.1=py311hf4f9f61_5
+  - pillow=10.1.0=py311ha6c5da5_0
+  - python-multipart=0.0.6=pyhd8ed1ab_0
+  - pytorch=2.1.2=py3.11_cuda11.8_cudnn8.7.0_0
+  - pytorch-cuda=11.8=h7e8668a_5
+  - requests=2.31.0=pyhd8ed1ab_0
+  - segment-anything=1.0=pyhd8ed1ab_1
+  - torchvision=0.16.2=py311_cu118
+  - tqdm=4.66.1=pyhd8ed1ab_0
+  - typing-extensions=4.9.0=hd8ed1ab_0
+  - uvicorn-standard=0.24.0.post1=h38be061_0
